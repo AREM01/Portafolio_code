@@ -1,0 +1,194 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Poppins";
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Poppins";
+  color: #334680;
+  background-color: #f6f7fb;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wraper {
+  width: 1200px;
+  margin: auto;
+}
+
+i {
+  width: 15px;
+  color: #b9bdcf;
+  margin: 0 20px;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+h2,
+h4,
+h6,
+p {
+  font-family: "Roboto";
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.family-poppins {
+  font-family: "Roboto";
+}
+
+.input {
+  padding: 20px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input:-ms-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input::-ms-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input::placeholder {
+  color: #9ea0a7;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  border: 1px solid #9ea0a7;
+  opacity: 0.5;
+  overflow: hidden;
+}
+
+.aside {
+  width: 33.33%;
+  margin: 20px 0 0;
+  padding: 20px 20px 20px 0;
+}
+
+.aside > input {
+  margin-left: 30px;
+}
+
+.aside .location {
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.aside .location h2 {
+  margin-bottom: 20px;
+}
+
+.aside .search {
+  background-color: #ffffff;
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aside .search .input {
+  width: 100%;
+}
+
+.aside i {
+  padding-top: 20px;
+}
+
+.aside li {
+  margin: 20px 0 0 20px;
+}
+
+.input {
+  padding: 20px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::-webkit-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input:-ms-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input::-ms-input-placeholder {
+  color: #9ea0a7;
+}
+
+.input::placeholder {
+  color: #9ea0a7;
+}
+
+.btn {
+  border: none;
+}
+
+.btn:hover {
+  border: 1px solid #9ea0a7;
+  opacity: 0.5;
+  overflow: hidden;
+}
+/*# sourceMappingURL=details.css.map */

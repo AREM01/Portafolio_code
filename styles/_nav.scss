@@ -1,0 +1,39 @@
+//paginacion
+.navigator {
+    width: 100%;
+    margin-top: 40px;
+
+    ul {
+      justify-content: flex-end;
+    }
+
+    .is-active {
+      background-color: map-get($map: $colors-branding, $key:secondary );
+      border: map-get($map: $colors-branding, $key:secondary );
+      color: $color-white;
+    }
+    .final {
+      margin-right: 0;
+    }
+    a {
+      padding: 15px 15px;
+      border: 1px solid map-get($map: $colors-branding, $key:third );
+      border-radius: 4px;
+      margin: 0 15px;
+      &:hover {
+        cursor: pointer;
+        color: map-get($map: $colors-branding, $key:secondary );
+        border: 1px solid map-get($map: $colors-branding, $key:secondary );
+      }
+      &:active {
+        background-color: map-get($map: $colors-branding, $key:secondary );
+        border: map-get($map: $colors-branding, $key:secondary );
+        color: $color-white;
+      }
+      &:focus {
+        background-color: map-get($map: $colors-branding, $key:secondary );
+        border: map-get($map: $colors-branding, $key:secondary );
+        color: $color-white;
+      }
+    }
+  }

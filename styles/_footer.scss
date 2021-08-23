@@ -1,0 +1,12 @@
+.footer {
+    width: 100%;
+    padding: 40px;
+    margin-top: 40px;
+    p {
+      font-family: map-get($map: $font-family, $key:third );
+      text-align: center;
+      color: map-get($map: $colors-branding, $key: third );
+      font-size: 1rem;
+    }
+  }
+  

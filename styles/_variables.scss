@@ -1,0 +1,31 @@
+
+
+
+$colors-branding: (
+  primary: #1E86FF,
+  secondary: #334680,
+  third: #b9bdcf,
+  body-bgcolor: #f6f7fb,
+);
+
+$color-white:#ffffff;
+
+//efecto de zombra caja
+$box-shadow-one: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+$font-family: (
+    base: "Poppins",
+    secondary: "Roboto",
+    third: "Montserrat"
+);
+
+$font-size: (
+  global: 62.5%,
+  base: 1.4rem,
+  h1: 2.4rem,
+  h2: 2.4rem,
+  h4: 1.8rem,
+  h5: 1.4rem,
+  h6: 1.2rem,
+  p: 1.6rem,
+);

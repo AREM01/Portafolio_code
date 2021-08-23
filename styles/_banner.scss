@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./globales";
+
+
+//banner
+.banner {
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+    .figure {
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+  
+    form {
+      width: 100%;
+    }
+  
+    .search {
+      background-color: $color-white;
+      width: 70%;
+      position: absolute;
+      left: 15%;
+      right: 15%;
+      top: 25%;
+      align-items: center;
+      border-radius: 10px;
+  
+      .input {
+        width: 75%;
+      }
+      .btn-search {
+        background-color: map-get($map: $colors-branding, $key:primary );
+        padding: 5px;
+        width: 25%;
+        color: $color-white;
+        border: 2px solid $color-white;
+        border-radius: 10px;
+        margin-right: 2px;
+      }
+    }
+  }
+ 
+  

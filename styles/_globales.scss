@@ -1,0 +1,82 @@
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: map-get($font-size, global);
+}
+
+body {
+  font-size: map-get($font-size, base);
+  font-family: map-get($font-family, base);
+}
+
+body {
+  font-size: map-get($font-size, base);
+  font-family: map-get($font-family, base);
+  color: map-get($colors-branding, secondary );
+  background-color: map-get($colors-branding,body-bgcolor );
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wraper {
+  width: 1200px;
+  margin: auto;
+}
+
+i {
+  width: 15px;
+  color: map-get($map: $colors-branding, $key:third );
+  margin: 0 20px;   
+
+}
+
+
+h1{
+  font-size: map-get( $font-size, h1);
+}
+
+h2,
+h4,
+h6,
+p {
+  font-family: map-get($font-family, secondary );
+}
+
+h2 {
+  font-size: map-get($map: $font-size, $key:h2 );
+  font-weight: 700;
+}
+
+h4 {
+  font-size: map-get($map: $font-size, $key:h4 );
+  font-weight: 400;
+}
+
+h5{
+  font-size: map-get($map: $font-size, $key:h5 );
+  font-weight: 500;
+}
+h6 {
+  font-size: map-get($map: $font-size, $key:h6 );
+  font-weight: 700;
+}
+
+p {
+  font-size: map-get($map: $font-size, $key:p );
+  line-height: 2.4rem;
+}
+
+.family-poppins{
+  font-family: map-get($font-family, secondary);
+}

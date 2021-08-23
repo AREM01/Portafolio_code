@@ -1,0 +1,30 @@
+.central-details {
+    .days, .city{ 
+        padding: 10px 0;       
+        i{
+            margin-left: 0;
+        }
+    }
+   
+  ul {
+    margin-bottom: 20px;
+  }
+
+  .row-detail {
+    margin-bottom: 20px;
+    .row-figure{        
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 4px;
+        }
+    }
+    .item-details{
+        padding: 0 20px;
+    }
+  }
+
+  h2 {
+    padding-right: 20px;
+  }
+}

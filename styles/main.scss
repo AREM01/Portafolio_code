@@ -1,0 +1,52 @@
+@import "./details";
+
+//helpers
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+
+
+ //main
+.main {
+  margin-bottom: 40px;
+  padding-left: 0;
+  
+  .btn-item {
+    font-family: map-get($map: $font-family, $key:secondary );
+    color: map-get($map: $colors-branding, $key:secondary );
+    border: 1px solid map-get($map: $colors-branding, $key:secondary );
+    border-radius: 4px;
+    padding: 8px 10px;
+    &:hover {
+      border: 1px solid #9ea0a7;
+      opacity: 0.5;
+      overflow: hidden;
+    }
+  }
+
+  .city,
+  .days {
+    h6 {      
+      font-weight: 400;
+      display: inline;
+      color: map-get($map: $colors-branding, $key:third );
+    }
+    i {
+      margin: 0 4px 0 20px;
+    }
+  }
+  
+  //pagina_details
+  .link_back {
+    i {
+      padding-top: 0;
+    }
+  }
+}
+
